@@ -1,12 +1,11 @@
 {
-  "name": "adroll",
+  "name": "@vampire-ab/adroll",
   "version": "0.0.1",
   "description": "",
   "keywords": [],
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
-  "type": "module",
   "author": "Brijesh Agal",
   "license": "ISC",
   "devDependencies": {
@@ -25,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/vampire-ab"
+  }
 }
